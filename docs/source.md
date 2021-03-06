@@ -185,6 +185,8 @@ Let's move on to the next generation, and go back to line 2.
 
 In the event that the player has managed, after a certain number of generations, to obtain the requested specimen, a message will be shown on the screen showing the result and the number of generations produced.
 
+## SUBROUTINES (LINES 8-9)
+
 ### KEYBOARD INPUT ROUTINE (LINE 8)
 
 <pre>8 k$="" : get k$ : on -(k$="" or val(k$)<1 or val(k$)>4 ) goto 8: print "{white}";k$; : return</pre>
