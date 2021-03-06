@@ -6,7 +6,7 @@
 
 [Click here](/docs/instructions.md) to read the instructions on how to play, and [here](/releases/download/1.0/evolution10.d64) to download the disk image (D64 format).
 
-This game was created to participate in the ["BASIC10Liner" competition 2021](https://gkanold.wixsite.com/homeputerium/rules2021). Since it joined this competition, the game itself is modest in size, the given source code respects strong constraints on the length of each line (category: **PUR-120**) and it does not rely on third party libraries.
+This game was created to participate in the ["BASIC10Liner" competition 2021](https://gkanold.wixsite.com/homeputerium/rules2021). Since it joined this competition, the game itself is modest in size, the given source code respects strong constraints on the length of each line (category: **PUR-120** ([proof](evolution10_pur120_proof.png))) and it does not rely on third party libraries.
 
 For those wishing to deepen the details of its implementation please refer to the following documents:
  *  [the source code](/docs/source.md)
