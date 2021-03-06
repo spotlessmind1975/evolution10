@@ -7,7 +7,7 @@ In order to play "Evolution 10" you need a COMMODORE 64 or an emulator of this c
 Once the emulator software has been installed, follow the instructions below:
  - start **x64sc.exe** program;
  - click on **File** > **Attach disk image** > **Drive 8**;
- - select <code>evolution10.d64</code> file ([click here to download](/blob/master/evolution10.d64));
+ - select <code>evolution10.d64</code> file ([click here to download](/releases/download/1.0/evolution10.d64));
  - click on **Attach**;
  - type <code>LOAD "EVOLUTION10",8,1</code>;
  - when finished loading, type <code>RUN</code>
