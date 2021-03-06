@@ -1,6 +1,6 @@
 # EVOLUTION 10
 
-![copertina](copertina.jpg)
+![copertina](copertina_evolution10.jpg)
 
 **EVOLUTION 10** is an evolution based game for [COMMODORE 64](https://it.wikipedia.org/wiki/Commodore_64) home computer. In this game the player assumes the role of "selective pressure" in the evolution of a species. Given a target objective, he/she will have to choose two specimens from those proposed so that they can reproduce themselves and so he/she approaches to the expected result. This game is designed for a single player and it is text-based.
 
