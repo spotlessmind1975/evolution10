@@ -18,7 +18,7 @@ The game is turn-based. At the beginning of each round it is shown which individ
 
 ![copertina](images/instructions1.png)
 
-The player must indicate the pair of individuals that they want to "mix" to obtain two more. The player must choose two (different) numbers in the 1..4 interval. The player's choice should be such as to reward those individuals who individually, or combined, most closely resemble the target individual. The program therefore performs both genetic blending and phenotypic regeneration.
+The player must indicate the pair of individuals that they want to "mix" to obtain two more. The player must choose two (different) numbers in the 1..4 interval. The player's choice should be such as to reward those individuals who individually, or combined, most closely resemble the target individual. The program therefore performs both genetic blending and phenotypic regeneration. For a more extensive explanation we recommend to read [this article](https://retroprogramming.iwashere.eu/evolution10:genotype).
 
 ![copertina](images/instructions2.png)
 
