@@ -126,7 +126,7 @@ We call the subroutine that waits for the pressing of a key from 1 to 4 (on line
 
 We print empty lines (*empty lines are interleaved with the logic for a matter of occupation and respect for the length of the BASIC lines*).
 
-<pre>on -(x$<>y$) goto 4: print"{red}you have to choose different phenotypes!{white}": goto 3</>
+<pre>on -(x$<>y$) goto 4: print"{red}you have to choose different phenotypes!{white}": goto 3</pre>
 
 If the player has indicated two equal numbers, then it is a mistake because it is not possible to combine an individual with himself. So we report it with an error message and go back to waiting for a key to be pressed.
 
