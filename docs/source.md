@@ -106,9 +106,9 @@ Now let's give the player the option to indicate the two individuals that will b
 
 ### ASK FOR INDIVIDUALS TO MIX (LINE 3)
 
-<pre>3 r=rnd(1)</pre>
+<pre>3 r=rnd(1): rm=rnd(1)</pre>
 
-We pre-calculate a random value, which will be used later.
+We pre-calculate two random values, which will be used later.
 
 <pre>gosub 8: x$=k$</pre>
 
@@ -163,11 +163,11 @@ With this loop we copy the genotype of the two selected individuals as the first
 
 All children will randomly take one of the genes from the first or second parent.
 
-<pre>on -(r>.6) goto 6: d(4,rk) = 1 + int(rnd(1)*3)</pre>
+<pre>on -(r>.8) goto 6: d(3-(rm>.5),rk) = 1 + int(rnd(1)*3)</pre>
 
 Sometimes, quite by chance, one of the genes of one of the children will undergo a mutation, which will cause it to be different from both the first and the second parent.
 
-<pre>6 rk=int(rnd(1))*3</pre>
+<pre>6 rk=int(rnd(1)*4)</pre>
 
 We reload the number of the gene that will eventually undergo the random modification.
 
@@ -187,7 +187,7 @@ In the event that the player has managed, after a certain number of generations,
 
 ### KEYBOARD INPUT ROUTINE (LINE 8)
 
-<pre>8 k$="" : get k$ : on -(k$="" or val(k$)<1 or val(k$)>5 ) goto 8: print "{white}";k$; : return</pre>
+<pre>8 k$="" : get k$ : on -(k$="" or val(k$)<1 or val(k$)>4 ) goto 8: print "{white}";k$; : return</pre>
 
 This routine takes care of keeping the player pressing one of the keys. The expected keys range from 1 to 4 inclusive and indicate which of the individuals will be selected for the next generation.
 
